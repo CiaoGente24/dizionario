@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dizionario</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarGenerale">
+  </nav>
+
+  <div class="container">
+    <input type="text" id="searchInput" placeholder="Cerca parola...">
+    <div class="search-menu">
+      <select id="search-criteria">
+        <option value="parola">Ricerca per Parola</option>
+        <option value="spiegazione">Ricerca per Spiegazione</option>
+      </select>
+    </div>
+
+    <div id="letterList" class="letter-links"></div>
+
+
+    <div id="sectionContainer">
+      <!-- Sezioni generate dinamicamente -->
+    </div>
+
+    
+    
+
+
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Torna in cima</button>
+  </div>
+
+  <div id="tipoDizionario" class="merezionario.csv"></div>
+
+  <script src="script.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic Styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  /*
+  nav ul {
+    list-style-type: none;
+    background-color: #555;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  */
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .word {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+/*
+  .navbar {
+    background-color: #f1f1f1;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+  }
+
+  .navbar a.active {
+    background-color: #666;
+    color: white;
+  }
+*/
+  /* Aggiunta di stili per il pulsante di ritorno in cima */
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  #scrollToTopBtn:hover {
+    background-color: #777;
+  }
+
+  /* Aggiungi il margine al searchInput */
+  #searchInput {
+    margin: 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #letterList {
+    margin-top: 10px;
+  }
+  
+  .letter-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+  }
+  
+  .letter-links li {
+    margin-right: 10px;
+  }
+  
+  .letter-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-right: 5px; /* Aggiunta distanza di 5 pixel tra gli elementi */
+  }
+  
+  .letter-links a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .letter-link-disabled {
+    color: #888; /* Colore scuro per le letterlink disattivate */
+  }
+
+  .sottoTitolo{
+    font-size: small;
+  }
+
+  .search-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #search-criteria {
+    padding: 5px;
+  }
+  
+  
